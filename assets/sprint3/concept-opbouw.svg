@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1200" height="680" viewBox="0 0 1200 680"><title>Conceptopbouw van de fysieke assistent</title><rect width="100%" height="100%" fill="#f7f8f6"/><style>text{font-family:Arial,sans-serif;fill:#25302b}.title{font-size:28px;font-weight:700}.small{font-size:17px;fill:#53615a}.label{font-size:21px}.line{stroke:#465b51;stroke-width:3;fill:none}.dim{stroke:#6b8277;stroke-width:1.6;fill:none}</style><text class="title" x="45" y="48">Conceptopbouw van de fysieke assistent</text><text class="small" x="45" y="78">Behuizing 50 cm hoog · overige maten na het meten van het scherm</text>
+<text class="label" x="98" y="127">Vooraanzicht</text>
+<rect x="135" y="150" width="245" height="300" rx="3" fill="#cbb391" stroke="#465b51" stroke-width="3"/>
+<rect x="151" y="166" width="213" height="40" fill="#283b32"/>
+<text x="257" y="192" text-anchor="middle" fill="#ffffff" style="fill:#fff;font-size:16px">ASSISTENT</text>
+<rect x="151" y="214" width="213" height="141" fill="#152d24"/>
+<circle cx="257" cy="282" r="27" stroke="#8ecbb6" stroke-width="2" fill="none"/>
+<path d="M241 281q5-9 10 0 M264 281q5-9 10 0 M246 293q11 11 22 0" stroke="#8ecbb6" stroke-width="2" fill="none"/>
+<rect x="151" y="364" width="213" height="71" fill="#ddd0b9"/>
+<path d="M159 450v144 M356 450v144" stroke="#35483e" stroke-width="15"/>
+<path d="M88 150v300 M79 150h20 M79 450h20 M88 150h37 M88 450h37" class="dim"/>
+<text class="label" x="72" y="306" transform="rotate(-90 72 306)">50 cm behuizing</text>
+<text class="small" x="122" y="628">Poothoogte nog te kiezen</text>
+
+<text class="label" x="469" y="127">Doorsnede</text>
+<path d="M485 150h230v56l-35 35v113l35 25v71H485Z" fill="#eee5d7" stroke="#465b51" stroke-width="3"/>
+<rect x="508" y="185" width="160" height="10" fill="#26392f"/>
+<path d="M507 210L667 370" stroke="#5aa995" stroke-width="6"/>
+<path d="M592 200v95h95" stroke="#ae7c3b" stroke-width="2" stroke-dasharray="7 5" fill="none"/>
+<rect x="510" y="398" width="68" height="32" rx="4" fill="#567c5b"/>
+<text class="small" x="582" y="421">Pi</text>
+<path d="M508 450v144 M690 450v144" stroke="#35483e" stroke-width="15"/>
+<path d="M678 190h58v-32h47 M650 353h132" class="dim"/>
+<text class="small" x="790" y="164">Scherm naar beneden</text>
+<text class="small" x="790" y="347">Schuine acrylplaat</text>
+<text class="small" x="790" y="372">Hoek als startpunt circa 45°</text>
+<text class="small" x="790" y="397">Beeld en kijkhoek nog testen</text>
+
+<text class="label" x="845" y="477">Onderkant</text>
+<rect x="850" y="493" width="205" height="109" fill="#ddd0b9" stroke="#465b51" stroke-width="2"/>
+<g fill="#435b4c"><circle cx="871" cy="513" r="8"/><circle cx="1034" cy="513" r="8"/><circle cx="871" cy="582" r="8"/><circle cx="1034" cy="582" r="8"/></g>
+<text class="small" x="843" y="628">4 poten op verstevigde bodem</text>
+<text class="small" x="45" y="662">Ontwerpschets · geen snijbestand · breedte, diepte, bodemversteviging en montage nog uitwerken</text></svg>

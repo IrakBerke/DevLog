@@ -5,6 +5,7 @@ Eenvoudige website voor GitHub Pages, ingedeeld per sprint.
 - `index.html`: overzicht van de sprints.
 - `sprint-1.html`: ideeën, bijdrage, proces en vooruitblik van sprint 1.
 - `sprint-2.html`: O&P Rijk, hardware, ethische analyse, Society 5.0, seminar, feedback en reflectie.
+- `sprint-3.html`: Raspberry Pi, hologrambehuizing, Makerslab, materiaalkeuze en volgende bouwstappen.
 - `styles.css`: eenvoudige opmaak, geschikt voor desktop en mobiel.
 - `assets/`: afbeeldingen en enquêteresultaten.
 

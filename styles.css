@@ -28,7 +28,7 @@ h3 { font-size: 18px; margin: 25px 0 10px; }
 p { margin: 13px 0; }
 li { margin: 6px 0; }
 .summary, main > p:first-of-type { color: var(--muted); }
-.sprint-list { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; list-style: none; padding: 0; margin: 28px 0 4px; }
+.sprint-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; list-style: none; padding: 0; margin: 28px 0 4px; }
 .sprint-list li { position: relative; padding: 23px 22px; margin: 0; border: 1px solid var(--line); border-top: 3px solid #467bbd; border-radius: 8px; background: #f9fbfe; transition: border-color .15s, background .15s; }
 .sprint-list li:hover { border-color: #8faed5; background: #f1f6fd; }
 .sprint-list h2 { font-size: 21px; margin: 0 0 10px; }
@@ -83,4 +83,17 @@ footer { padding: 21px 4px 0; color: var(--muted); font-size: 12px; }
   h2, h3 { break-after: avoid; }
   .sprint-list { display: block; }
   .sprint-list li { margin: 16px 0; }
+}
+
+/* Sprint 3: figures and material photos in the existing page style. */
+.sprint-date { color: var(--muted); font-size: 13px; }
+.sprint-three figure { margin: 24px 0; }
+.sprint-three figure img { margin: 0 0 9px; }
+.sprint-three figcaption { color: var(--muted); font-size: 13px; line-height: 1.6; }
+.sprint-three .image-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.sprint-three .image-grid figure { margin-top: 12px; }
+.sprint-three .image-grid img { height: 360px; width: 100%; object-fit: contain; background: #f9fbfe; }
+@media (max-width: 650px) {
+  .sprint-three .image-grid { grid-template-columns: 1fr; gap: 4px; }
+  .sprint-three .image-grid img { height: auto; max-height: 440px; }
 }
