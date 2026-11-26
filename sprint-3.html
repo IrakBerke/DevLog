@@ -11,28 +11,26 @@
 <a class="skip" href="#inhoud">Naar de inhoud</a>
 <header class="site-header"><a href="index.html" class="site-title">Devlog — Berke Irak</a><p>Jaar 3 · Semester 1 · Dark Tech / O&amp;P Rijk</p><nav aria-label="Sprints"><a href="index.html">Overzicht</a><a href="sprint-1.html">Sprint 1</a><a href="sprint-2.html">Sprint 2</a><a href="sprint-3.html" aria-current="page">Sprint 3</a></nav></header>
 <main id="inhoud" class="sprint-three"><h1>Sprint 3</h1>
-<p class="summary">Van hologramidee naar een maakbaar prototype voor O&amp;P Rijk.</p>
-<p class="sprint-date"><time datetime="2026-11-25">25 november 2026</time></p>
 <p>Deze sprint ben ik vooral bezig geweest met de voorbereiding van ons fysieke prototype voor O&amp;P Rijk. We willen onze assistent laten verschijnen met een soort hologrameffect. Ik heb de Raspberry Pi opgehaald en ben aan het uitzoeken hoe we de techniek en de behuizing samen kunnen krijgen.</p>
 <p>Van mijn docent kreeg ik terug dat mijn vorige devlog te veel over alle activiteiten van de studio ging. Daarom hou ik het deze keer bij mijn eigen werk aan het project: wat ik heb uitgezocht, welke keuzes we maken en wat ik nog moet testen.</p>
 
 <nav class="contents" aria-label="Inhoud sprint 3"><strong>In deze sprint</strong><ul><li><a href="#raspberry-pi">Raspberry Pi</a></li><li><a href="#ontwerp">Ontwerp</a></li><li><a href="#makerslab">Makerslab</a></li><li><a href="#materialen">Materialen</a></li><li><a href="#reflectie">Reflectie</a></li><li><a href="#volgende-stap">Volgende stap</a></li></ul></nav>
 <section id="raspberry-pi"><h2>De Raspberry Pi voorbereiden</h2>
-<p>Voor ons project hadden we een Raspberry Pi nodig, dus die heb ik opgehaald. Op de foto staat de Raspberry Pi 3 Model B+. Ik ben begonnen met uitzoeken hoe je die eigenlijk aan de praat krijgt. Daarbij heb ik gekeken naar Raspberry Pi OS, een microSD-kaart, de voeding en het aansluiten van een scherm.</p>
+<p>Voor ons project hadden we een Raspberry Pi nodig, dus die heb ik opgehaald, zoals op de foto hieronder te zien is. Ik ben begonnen met uitzoeken hoe je die eigenlijk aan de praat krijgt. Daarbij heb ik gekeken naar Raspberry Pi OS, een microSD-kaart, de voeding en het aansluiten van een scherm.</p>
 <p>Met Raspberry Pi Imager kun je het besturingssysteem op de microSD-kaart zetten en alvast de wifi instellen. Mijn plan is om eerst te controleren of de Pi goed opstart en beeld geeft. Daarna wil ik onze demo op het scherm openen. De Pi moet straks het beeld van de assistent aansturen. Of onze hele demo er soepel op draait, moet ik nog testen.</p>
 <figure><a href="assets/sprint3/raspberry-pi.webp"><img loading="lazy" decoding="async" src="assets/sprint3/raspberry-pi.webp" alt="De Raspberry Pi 3 Model B+ die ik heb opgehaald." width="1080" height="1440"></a><figcaption>De Raspberry Pi 3 Model B+ die ik heb opgehaald.</figcaption></figure>
 </section>
 <section id="ontwerp"><h2>Het ontwerp van de behuizing</h2>
 <p>Ik heb ook gekeken naar een design voor de behuizing. Het idee is een soort kleine arcadekast met een donkere binnenkant en een schuine transparante plaat. Daarin moet het beeld van de assistent zichtbaar worden. We gaan voor een behuizing van 50 cm hoog. Dat is het formaat dat we nu willen uitwerken voor het prototype.</p>
 <p>Onder de kast willen we vier IKEA-tafelpoten monteren. Dan kan het prototype op zichzelf staan en hoeven we het niet steeds op een tafel te zetten. De hoogte van de poten moeten we nog kiezen. Ik wil in het lab ook bespreken hoe we de onderkant verstevigen, zodat de poten goed vastzitten. Voor de breedte en diepte moeten we eerst het scherm en de ruimte voor de schuine plaat goed nameten.</p>
-<figure><a href="assets/sprint3/hologram-sfeerbeeld.webp"><img loading="lazy" decoding="async" src="assets/sprint3/hologram-sfeerbeeld.webp" alt="Eerder gemaakt AI-sfeerbeeld van het kastidee. De houtlook is een indruk; we willen MDF gebruiken." width="1536" height="1024"></a><figcaption>Eerder gemaakt AI-sfeerbeeld van het kastidee. De houtlook is een indruk; we willen MDF gebruiken.</figcaption></figure>
+<figure><a href="assets/sprint3/hologram-sfeerbeeld.webp"><img loading="lazy" decoding="async" src="assets/sprint3/hologram-sfeerbeeld.webp" alt="Ontwerp van de behuizing voor de fysieke assistent." width="1536" height="1024"></a></figure>
 <figure><a href="assets/sprint3/concept-opbouw.svg"><img loading="lazy" decoding="async" src="assets/sprint3/concept-opbouw.svg" alt="Concepttekening van de opbouw met vier poten. De breedte, diepte en poothoogte staan nog niet vast." width="1200" height="680"></a><figcaption>Concepttekening van de opbouw met vier poten. De breedte, diepte en poothoogte staan nog niet vast.</figcaption></figure>
 </section>
 <section id="makerslab"><h2>Uitleg in het Makerslab</h2>
 <p>In het Makerslab heb ik van een meneer uitleg gekregen over vingerverbindingen. Dat zijn eigenlijk tandjes aan de randen van de platen die in elkaar vallen. Dat leek mij handig voor onze kast, omdat je zo losse panelen op elkaar kunt laten aansluiten. Hij vertelde ook over Inkscape, AutoCAD en MakerCase. Daar ben ik me nu verder in aan het verdiepen.</p>
 <p>Ik heb gekeken hoe deze programma’s kunnen helpen bij het ontwerp. Met MakerCase kun je een basisdoos met vingerverbindingen uitwerken en als SVG of DXF exporteren. Inkscape wil ik gebruiken om de vormen verder aan te passen. AutoCAD is een andere mogelijkheid om de panelen op maat te tekenen. Een standaard doos is nog niet onze arcadekast, dus de schuine voorkant en de opening moeten we apart uitwerken.</p>
 <p>Voor de opbouw en de verbindingen heb ik eerste concepttekeningen laten uitwerken. Die kan ik verder bewerken in Inkscape of AutoCAD. Wat ik vooral heb meegenomen uit het uitzoeken, is dat de dikte van de plaat en het snijverlies invloed hebben op hoe de onderdelen passen. Daarom wil ik eerst een klein proefstuk maken voordat we de hele kast laten snijden.</p>
-<figure><a href="assets/sprint3/concept-vingerverbinding.svg"><img loading="lazy" decoding="async" src="assets/sprint3/concept-vingerverbinding.svg" alt="Concepttekening van het principe van een vingerverbinding. Eerst de passing testen op het echte materiaal." width="1200" height="570"></a><figcaption>Concepttekening van het principe van een vingerverbinding. Eerst de passing testen op het echte materiaal.</figcaption></figure>
+<figure><a href="assets/sprint3/concept-vingerverbinding.svg"><img loading="lazy" decoding="async" src="assets/sprint3/concept-vingerverbinding.svg" alt="Concepttekening van het principe van een vingerverbinding." width="1200" height="570"></a><figcaption>Concepttekening van het principe van een vingerverbinding.</figcaption></figure>
 </section>
 <section id="materialen"><h2>Materialen uitzoeken</h2>
 <p>Ik heb in het Makerslab gekeken welke materialen er zijn en wat we willen bestellen. Dit is mijn voorlopige bestellijst:</p>
@@ -46,9 +44,6 @@
 </section>
 <section id="volgende-stap"><h2>Volgende week beginnen met bouwen</h2>
 <p>Volgende week wil ik in het Makerslab beginnen met het maken van het prototype. Eerst wil ik de maten en tekeningen met een medewerker nalopen en een vingerverbinding testen. Daarna kunnen we de panelen snijden en de behuizing in elkaar zetten. Ook wil ik de Raspberry Pi met het scherm testen en kijken naar de hoek van de acrylplaat. Tijdens het bouwen ga ik foto’s maken, zodat ik in mijn volgende devlog kan laten zien wat ik heb aangepast en waarom.</p>
-</section>
-<section id="bronnen"><h2>Bronnen bij de voorbereiding</h2>
-<ul><li>Raspberry Pi. (z.d.). <a href="https://www.raspberrypi.com/documentation/computers/getting-started.html">Getting started</a>.</li><li>Hogeschool van Amsterdam. (z.d.). <a href="https://www.hva.nl/samenwerken/labs/makerslab/lasersnijder">Lasersnijder</a>.</li><li>MakerCase. (z.d.). <a href="https://makercase.com/">MakerCase</a>.</li></ul>
 </section>
 <p class="next"><a href="sprint-2.html">← Naar sprint 2</a> · <a href="index.html">Alle sprints</a> · <a href="#inhoud">Naar boven ↑</a></p>
 </main><footer>Berke Irak · HvA Software Engineering</footer>
